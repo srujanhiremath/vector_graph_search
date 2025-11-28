@@ -1,0 +1,12 @@
+{
+  "filter": {
+    "should": [
+      {
+        "key": "city",
+        "match": { "value": "London" }
+      }
+    ]
+  },
+  "vector": [0.2, 0.1, 0.9, 0.7],
+  "top": 3
+}
